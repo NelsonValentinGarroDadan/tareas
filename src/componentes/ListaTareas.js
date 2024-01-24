@@ -1,6 +1,6 @@
 import React, { useState} from "react";
 import Formulario from "./Formulario";
-import ListaCss from '../Hojas-Estilo/ListaTareas.css'
+import '../Hojas-Estilo/ListaTareas.css'
 import Tarea from "./Tarea";
 function ListaTareas(){
     const [tareas , setTareas] = useState([]);
@@ -13,7 +13,7 @@ function ListaTareas(){
         }
     };
     const eliminarTarea = (id) =>{
-        const tareasActualizadas = tareas.filter(tarea => tarea.id != id );
+        const tareasActualizadas = tareas.filter(tarea => tarea.id !== id );
         setTareas(tareasActualizadas);
     }
     const tareaCompletada = (id) => {

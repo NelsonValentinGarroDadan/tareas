@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import FormularioCss from '../Hojas-Estilo/Formulario.css'
+import '../Hojas-Estilo/Formulario.css'
 import {v4 as uuidv4} from 'uuid'
 function Formulario(props){
     const [input,setInput] = useState('');

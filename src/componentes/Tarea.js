@@ -1,5 +1,5 @@
 import React from "react";
-import TareaCss from '../Hojas-Estilo/Tarea.css'
+import '../Hojas-Estilo/Tarea.css'
 import { AiOutlineCloseCircle } from "react-icons/ai";
 
 function Tarea({id, texto , completada, tareaCompletada, eliminarTarea}){
