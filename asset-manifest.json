@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/tu-repositorio/static/css/main.12031d11.css",
-    "main.js": "/tu-repositorio/static/js/main.378493ff.js",
-    "index.html": "/tu-repositorio/index.html",
-    "main.12031d11.css.map": "/tu-repositorio/static/css/main.12031d11.css.map",
-    "main.378493ff.js.map": "/tu-repositorio/static/js/main.378493ff.js.map"
+    "main.css": "/tareas/static/css/main.12031d11.css",
+    "main.js": "/tareas/static/js/main.378493ff.js",
+    "index.html": "/tareas/index.html",
+    "main.12031d11.css.map": "/tareas/static/css/main.12031d11.css.map",
+    "main.378493ff.js.map": "/tareas/static/js/main.378493ff.js.map"
   },
   "entrypoints": [
     "static/css/main.12031d11.css",
